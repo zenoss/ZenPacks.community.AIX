@@ -41,6 +41,11 @@ class AIXBase(Device):
                 , 'action'        : 'aixdeviceOsDetail'
                 , 'permissions'   : (ZEN_VIEW, )
                 },
+                { 'id'            : 'swdetail'
+                , 'name'          : 'Software'
+                , 'action'        : 'deviceSoftwareDetail'
+                , 'permissions'   : (ZEN_VIEW, )
+                },
                 { 'id'            : 'hwdetail'
                 , 'name'          : 'Hardware'
                 , 'action'        : 'aixdeviceHardwareDetail'
