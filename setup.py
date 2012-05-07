@@ -5,7 +5,7 @@
 NAME = "ZenPacks.community.AIX"
 VERSION = "1.1"
 AUTHOR = "Kells Kearney & Eric Edgar"
-LICENSE = ""
+LICENSE = "GPLv2"
 NAMESPACE_PACKAGES = ['ZenPacks', 'ZenPacks.community']
 PACKAGES = ['ZenPacks', 'ZenPacks.community', 'ZenPacks.community.AIX']
 COMPAT_ZENOSS_VERS = ">=2.4"
